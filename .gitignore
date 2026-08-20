@@ -1,0 +1,17 @@
+# Node Modules Everywhere
+**/node_modules/
+
+# Environment Variables
+**/.env
+**/.env.*
+
+# Build & Dist Folders
+**/dist/
+**/build/
+**/dist-ssr/
+
+# Logs & Editor Files
+*.log
+.vscode/
+.idea/
+.DS_Store

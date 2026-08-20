@@ -1,0 +1,19 @@
+{
+  "name": "carewala-mern-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend":"cd \"CareWala Backend\" && npm run dev",
+     "frontend":"cd \"CareWala Frontend\" && npm run dev",
+     "dev":"concurrently \"npm run backend\" \"npm run frontend\""
+   
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^10.0.4"
+  }
+}
